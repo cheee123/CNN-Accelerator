@@ -1,0 +1,38 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"-432,-115",
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_start_flag -pg 1 -lvl 0 -x 0 -y 100 -defaultsOSRD
+preplace port port-id_sys_clk -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace port port-id_rst_n -pg 1 -lvl 0 -x 0 -y 80 -defaultsOSRD
+preplace port port-id_end_flag -pg 1 -lvl 2 -x 360 -y 100 -defaultsOSRD
+preplace port port-id_ram_wea_wtb -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port port-id_ram_en_wtb -pg 1 -lvl 0 -x 0 -y 160 -defaultsOSRD
+preplace portBus NN_out_female -pg 1 -lvl 2 -x 360 -y 120 -defaultsOSRD
+preplace portBus NN_out_male -pg 1 -lvl 2 -x 360 -y 140 -defaultsOSRD
+preplace portBus ram_data_wtb -pg 1 -lvl 0 -x 0 -y 140 -defaultsOSRD
+preplace portBus ram_addr_wtb -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace inst NN_1 -pg 1 -lvl 1 -x 180 -y 120 -defaultsOSRD
+preplace netloc MUX_mem_out_0_NN_out_female 1 1 1 NJ 120
+preplace netloc MUX_mem_out_0_NN_out_male 1 1 1 NJ 140
+preplace netloc MUX_mem_out_0_end_flag 1 1 1 NJ 100
+preplace netloc ram_addr_wtb_1 1 0 1 NJ 120
+preplace netloc ram_data_wtb_1 1 0 1 NJ 140
+preplace netloc ram_en_wtb_1 1 0 1 NJ 160
+preplace netloc ram_wea_wtb_1 1 0 1 NJ 180
+preplace netloc rst_n_1 1 0 1 NJ 80
+preplace netloc start_flag_1 1 0 1 NJ 100
+preplace netloc sys_clk_1 1 0 1 NJ 60
+levelinfo -pg 1 0 180 360
+pagesize -pg 1 -db -bbox -sgen -180 0 540 230
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"2"
+}
